@@ -25,7 +25,7 @@
               <el-menu-item index="/about">选项2</el-menu-item>
             </el-menu-item-group>
           </el-submenu>
-          <el-menu-item index="/config">
+          <el-menu-item index="/application">
             <i class="el-icon-menu"></i>
             <span slot="title">应用管理</span>
           </el-menu-item>
