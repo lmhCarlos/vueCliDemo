@@ -21,7 +21,7 @@
               <span>配置管理</span>
             </template>
             <el-menu-item-group>
-              <el-menu-item index="/application">选项1</el-menu-item>
+              <el-menu-item index="/config">选项1</el-menu-item>
               <el-menu-item index="/about">选项2</el-menu-item>
             </el-menu-item-group>
           </el-submenu>
