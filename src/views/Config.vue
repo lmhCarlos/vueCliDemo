@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import axios from 'axios'
+import { getList } from '@/api/user'
 
 export default {
   name: 'Config',
@@ -55,7 +55,7 @@ export default {
   },
   methods: {
     getData () {
-      axios.get('http://localhost:8080/getList').then(res => {
+      getList('getList').then(res => {
         this.tableData = res.data.result
       }, error => {
         console.log(error)
